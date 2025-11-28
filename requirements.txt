@@ -1,13 +1,5 @@
-[project]
-name = "repl-nix-workspace"
-version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.11"
-dependencies = [
-    "flask>=3.1.2",
-    "flask-cors>=6.0.1",
-    "openai>=2.8.1",
-    "python-telegram-bot>=22.5",
-    "requests>=2.32.5",
-    "telegram>=0.0.1",
-]
+fastapi
+uvicorn
+requests
+huggingface-hub
+python-dotenv
