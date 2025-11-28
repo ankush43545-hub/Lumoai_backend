@@ -1,5 +1,7 @@
-fastapi
-uvicorn
-requests
+flask
+flask-cors
+openai
 huggingface-hub
 python-dotenv
+requests
+gunicorn
